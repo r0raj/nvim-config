@@ -95,12 +95,6 @@ require("lazy").setup({
         end
     },
 
-    --fortune messages in alpha greeter page
---[[    {
-        'BlakeJC94/alpha-nvim-fortune',
-        config = function() require("core.plugins_config.alpha-config") end,
-    },]]
-
     --nvim which-key custom key bindings manager
     {
         "folke/which-key.nvim",
@@ -112,7 +106,16 @@ require("lazy").setup({
         "catppuccin/nvim",
         name = "catppuccin",
         priority = 1000
-    }
+    },
 
+    -- gitsigns lua based git decorator
+    {
+      "lewis6991/gitsigns.nvim",
+    },
+
+    -- vim-fugitive git command plugin
+    {
+        "tpope/vim-fugitive",
+    }
 
 })
