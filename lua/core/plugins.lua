@@ -116,6 +116,13 @@ require("lazy").setup({
     -- vim-fugitive git command plugin
     {
         "tpope/vim-fugitive",
-    }
+    },
 
+    -- precognition vim motion assistance
+    {
+        "tris203/precognition.nvim",
+        config = {
+
+        },
+    }
 })
